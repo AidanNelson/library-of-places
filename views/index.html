@@ -1,0 +1,104 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Library of Places</title>
+    <meta name="description" content="p5.js CDN Template">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <script src="./mappa.js"></script>
+    <script src="./sketch.js"></script>   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+  
+  <style>
+/* centered columns styles */
+body{
+font-family: 'Lato', sans-serif;
+}
+
+.row-centered {
+  /* display:inline-block; */
+float:none;
+/* reset the text-align */
+/* text-align:left; */
+/* inline-block space fix */
+/* margin-right:-4px; */
+    margin: 0 auto;
+text-align: center;
+background-color: #000;
+border: 0px solid #000;
+}
+    
+.col-centered {
+/* display:inline-block; */
+float:none;
+/* reset the text-align */
+/* text-align:left; */
+/* inline-block space fix */
+/* margin-right:-4px; */
+    margin: 0 auto;
+text-align: center;
+background-color: #000;
+border: 0px solid #000;
+}
+    
+p {
+color: #ffffff;
+/* font-family: arial; */
+font-size: 0.8em;
+/*   margin-top: 0em; */
+  padding: 0em;
+  margin: 0em;
+}
+    
+    h3 {
+      color: #ffffff;
+/* font-family: arial; */
+font-size: 1.5em;
+    }
+    
+a:link {
+  text-decoration: none;
+}
+
+
+
+.resetButton {
+border: 0;
+line-height: 2;
+padding: 0 10px;
+font-size: 1rem;
+text-align: center;
+color: #fff;
+border-radius: 5px;
+background-color: rgba(100, 100, 100, 1);
+}
+hr {
+  border-color: #222
+    }
+    </style>
+  
+  </head>
+  <body >
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-centered" id="centerCol">
+          <h3>
+             Click on any two points to define a route.
+          </h3>
+          <p>
+             Images from the <a href='https://www.loc.gov/'>Library of Congress</a>
+          </p>
+          <p>
+            by <a href='http://aidanjnelson.com/'>Aidan Nelson</a>
+          </p>
+          <div id="canvasContainer">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
