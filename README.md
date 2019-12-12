@@ -1,5 +1,5 @@
-# p5.js
+# Library of Places
 
-[p5.js](https://p5js.org/) is a JS client-side library for creating graphic and interactive experiences, based on the core principles of Processing.
+A new search ‘vehicle’ for the Library of Congress’ unfathomably massive photo archive, this experiment uses the analog of a roadtrip as a search through these collections. As you plot a route on the map, photos taken along that route are displayed. My hope is to allow serendipitous connections between photos from different times, collections and populations which would otherwise never appear together within the archive.
 
-This is a simple template that points to the most recent P5.js versions via a CDN. 
+This was made as part of Jer Thorp's [Arists in the Archive](https://github.com/blprnt/ArtArchive) course at ITP in Spring of 2019.
